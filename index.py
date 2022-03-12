@@ -3,6 +3,6 @@ st.header("Hello World")
 
 num = st.number_input("Enter a number", 1, 10)
 
-for i in (1,11):
+for i in range (1,11):
 
     st.write(num,'X', i,'=', num*i)
